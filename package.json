@@ -1,6 +1,6 @@
 {
   "name": "@k.sh/config.typescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": "git@github.com:karolis-sh/config.typescript.git",
   "license": "MIT",
   "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
