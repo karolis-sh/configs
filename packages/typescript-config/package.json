@@ -5,6 +5,9 @@
   "license": "MIT",
   "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "volta": {
     "extends": "../../package.json"
   }
