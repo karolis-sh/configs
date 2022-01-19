@@ -1,0 +1,15 @@
+*
+!*/
+!*.json
+!*.md
+!*.yml
+!*.js
+!*.mjs
+!*.cjs
+
+# npm files
+node_modules
+package.json
+
+# project
+CHANGELOG.md
