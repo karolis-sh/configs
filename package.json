@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "format": "sort-package-json package.json packages/*/package.json",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "yarn && yarn lerna publish --no-private --conventional-commits --create-release github --no-commit-hooks"
   },
   "lint-staged": {
     "package.json": "sort-package-json"
@@ -20,6 +21,7 @@
     "@commitlint/config-conventional": "^16.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0",
+    "lerna": "^4.0.0",
     "lint-staged": ">=10",
     "sort-package-json": "^1.53.1"
   },
