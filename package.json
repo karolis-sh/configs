@@ -1,15 +1,30 @@
 {
-  "name": "@k.sh/config.typescript",
-  "version": "0.1.1",
-  "repository": "git@github.com:karolis-sh/config.typescript.git",
+  "name": "configs",
+  "version": "0.0.0",
+  "private": "true",
+  "repository": "git@github.com:karolis-sh/configs.git",
   "license": "MIT",
   "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "sort-package-json package.json packages/*/package.json",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "package.json": "sort-package-json"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^16.0.3",
+    "@commitlint/config-conventional": "^16.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.0",
+    "lint-staged": ">=10",
+    "sort-package-json": "^1.53.1"
+  },
   "volta": {
     "node": "16.13.0",
     "yarn": "1.22.17"
-  },
-  "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
   }
 }

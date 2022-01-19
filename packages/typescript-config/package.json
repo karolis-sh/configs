@@ -1,0 +1,11 @@
+{
+  "name": "@k.sh/typescript-config",
+  "version": "0.0.0",
+  "repository": "git@github.com:karolis-sh/configs.git",
+  "license": "MIT",
+  "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
+  "main": "index.js",
+  "volta": {
+    "extends": "../../package.json"
+  }
+}
