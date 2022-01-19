@@ -1,6 +1,6 @@
 {
   "name": "@k.sh/prettier-config",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "repository": "git@github.com:karolis-sh/configs.git",
   "license": "MIT",
   "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
