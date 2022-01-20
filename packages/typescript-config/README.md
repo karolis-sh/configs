@@ -21,5 +21,5 @@
 
 - [Mike's "bare bones" TS setup](https://github.com/mike-north/professional-ts/blob/master/notes/04-mikes-ts-setup.md)
 
-[package-version-badge]: https://badge.fury.io/js/@k.sh/typescript-config.svg
+[package-version-badge]: https://badge.fury.io/js/@k.sh%2Ftypescript-config.svg
 [package-version]: https://www.npmjs.com/package/@k.sh/typescript-config
