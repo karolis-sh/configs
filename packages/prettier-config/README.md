@@ -32,5 +32,5 @@ node_modules
 package.json
 ```
 
-[package-version-badge]: https://badge.fury.io/js/@k.sh/prettier-config.svg
+[package-version-badge]: https://badge.fury.io/js/@k.sh%2Fprettier-config.svg
 [package-version]: https://www.npmjs.com/package/@k.sh/prettier-config
