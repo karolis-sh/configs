@@ -2,9 +2,9 @@
   "name": "configs",
   "version": "0.0.0",
   "private": true,
-  "repository": "git@github.com:karolis-sh/configs.git",
+  "repository": "karolis-sh/configs",
   "license": "MIT",
-  "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
+  "author": "Karolis Šarapnickis <hi@karolis.sh>",
   "workspaces": [
     "packages/*"
   ],
@@ -12,21 +12,26 @@
     "format": "run-p format:*",
     "format:package.json": "sort-package-json package.json packages/*/package.json",
     "format:prettier": "prettier --write '**/*.*'",
+    "lint": "eslint . --ignore-path .gitignore",
     "prepare": "husky install",
+    "qa": "yarn lint",
     "release": "yarn && yarn lerna publish --no-private --conventional-commits --create-release github --no-commit-hooks"
   },
   "lint-staged": {
+    "*.js": "eslint --fix",
     "package.json": "sort-package-json"
   },
   "dependencies": {
     "@commitlint/cli": "^16.0.3",
     "@commitlint/config-conventional": "^16.0.0",
+    "@ksh/eslint-config": "*",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",
     "lint-staged": ">=10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3",
     "sort-package-json": "^1.53.1"
   },
   "volta": {

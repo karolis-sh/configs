@@ -1,9 +1,9 @@
 {
   "name": "@k.sh/typescript-config",
   "version": "0.2.0",
-  "repository": "git@github.com:karolis-sh/configs.git",
+  "repository": "karolis-sh/configs",
   "license": "MIT",
-  "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
+  "author": "Karolis Šarapnickis <hi@karolis.sh>",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
