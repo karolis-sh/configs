@@ -12,12 +12,15 @@
 1. Create config file
 
 ```sh
-echo "module.exports = require('@k.sh/prettier-config');" > .prettierrc.js
+cat <<EOT >> .prettierrc.js
+module.exports = require('@k.sh/prettier-config');
+EOT
 ```
 
-2. Create a `.prettierignore`
+2. Update `.prettierignore` to something like this
 
-```
+```sh
+cat <<EOT >> .prettierignore
 *
 !*/
 !*.json
@@ -28,6 +31,7 @@ echo "module.exports = require('@k.sh/prettier-config');" > .prettierrc.js
 # npm files
 node_modules
 package.json
+EOT
 ```
 
 [package-version-badge]: https://badge.fury.io/js/@k.sh%2Fprettier-config.svg
