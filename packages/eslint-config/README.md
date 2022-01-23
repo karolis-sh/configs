@@ -16,7 +16,7 @@
 ```sh
 cat <<EOT >> .eslintrc.json
 {
-  "extends": "@ksh"
+  "extends": "@k.sh"
 }
 EOT
 ```

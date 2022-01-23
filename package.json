@@ -24,7 +24,7 @@
   "dependencies": {
     "@commitlint/cli": "^16.0.3",
     "@commitlint/config-conventional": "^16.0.0",
-    "@ksh/eslint-config": "*",
+    "@k.sh/eslint-config": "*",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",

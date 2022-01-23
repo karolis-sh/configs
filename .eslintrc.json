@@ -1,4 +1,4 @@
 {
-  "extends": "@ksh",
+  "extends": "@k.sh",
   "env": { "node": true }
 }

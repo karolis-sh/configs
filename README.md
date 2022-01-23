@@ -1,5 +1,5 @@
 # Configs
 
-- [`@ksh/prettier-config`](/packages/prettier-config)
-- [`@ksh/typescript-config`](/packages/typescript-config)
-- [`@ksh/eslint-config`](/packages/eslint-config)
+- [`@k.sh/prettier-config`](/packages/prettier-config)
+- [`@k.sh/typescript-config`](/packages/typescript-config)
+- [`@k.sh/eslint-config`](/packages/eslint-config)
