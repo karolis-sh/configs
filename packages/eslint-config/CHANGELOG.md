@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-config@3.0.0...@k.sh/eslint-config@3.0.1) (2022-02-18)
+
+
+### Bug Fixes
+
+* remove node package ([a026bbd](https://github.com/karolis-sh/configs/commit/a026bbdb5ff3066daa081b3aff11c8a92dd3cc58))
+
+
+
+
+
 # 3.0.0 (2022-01-23)
 
 
