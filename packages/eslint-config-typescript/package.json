@@ -1,15 +1,19 @@
 {
-  "name": "@k.sh/eslint-config",
-  "version": "3.0.0",
+  "name": "@k.sh/eslint-config-typescript",
+  "version": "0.0.0",
   "repository": "karolis-sh/configs",
   "license": "MIT",
   "author": "Karolis Šarapnickis <hi@karolis.sh>",
   "main": "index.js",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   },
   "publishConfig": {
     "access": "public"
