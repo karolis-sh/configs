@@ -12,7 +12,7 @@
 1. Create config file
 
 ```sh
-cat <<EOT >> .prettierrc.js
+cat <<EOT > .prettierrc.js
 module.exports = require('@k.sh/prettier-config');
 EOT
 ```
@@ -20,7 +20,7 @@ EOT
 2. Update `.prettierignore` to something like this
 
 ```sh
-cat <<EOT >> .prettierignore
+cat <<EOT > .prettierignore
 *
 !*/
 !*.json

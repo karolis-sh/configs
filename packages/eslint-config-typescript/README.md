@@ -7,7 +7,7 @@
 
 ## Installation
 
-`yarn add -D @k.sh/eslint-config-typescript`
+`yarn add -D @k.sh/eslint-config-typescript @k.sh/eslint-config`
 
 ## Setup
 
@@ -27,5 +27,5 @@ cat <<EOT > .eslintrc.json
 EOT
 ```
 
-[package-version-badge]: https://badge.fury.io/js/@k.sh%2Feslint-config.svg
-[package-version]: https://www.npmjs.com/package/@k.sh/eslint-config
+[package-version-badge]: https://badge.fury.io/js/@k.sh%2Feslint-config-typescript.svg
+[package-version]: https://www.npmjs.com/package/@k.sh/eslint-config-typescript

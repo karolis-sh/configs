@@ -14,7 +14,7 @@
 1. Update `tsconfig.json`
 
 ```sh
-cat <<EOT >> tsconfig.json
+cat <<EOT > tsconfig.json
 {
   "extends": "@k.sh/typescript-config/config.json"
 }
