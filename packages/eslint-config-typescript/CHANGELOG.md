@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-config-typescript@0.1.0...@k.sh/eslint-config-typescript@0.1.1) (2022-02-19)
+
+
+### Bug Fixes
+
+* add import plugin setup ([575ec68](https://github.com/karolis-sh/configs/commit/575ec6856a1962ac8fe3a0272ffa494b974132c7))
+
+
+
+
+
 # 0.1.0 (2022-02-18)
 
 
