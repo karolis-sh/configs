@@ -7,8 +7,5 @@
   "main": "index.js",
   "publishConfig": {
     "access": "public"
-  },
-  "volta": {
-    "extends": "../../package.json"
   }
 }
