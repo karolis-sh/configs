@@ -17,6 +17,9 @@
   "devDependencies": {
     "typescript": "^4.5.5"
   },
+  "peerDependencies": {
+    "typescript": "*"
+  },
   "publishConfig": {
     "access": "public"
   }
