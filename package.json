@@ -21,7 +21,7 @@
     "*.js": "eslint --fix",
     "package.json": "sort-package-json"
   },
-  "dependencies": {
+  "devDependencies": {
     "@commitlint/cli": "^16.0.3",
     "@commitlint/config-conventional": "^16.0.0",
     "@k.sh/eslint-config": "*",
