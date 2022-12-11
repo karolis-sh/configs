@@ -11,10 +11,10 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0"
   },
+  "peerDependencies": {
+    "prettier": "*"
+  },
   "publishConfig": {
     "access": "public"
-  },
-  "volta": {
-    "extends": "../../package.json"
   }
 }

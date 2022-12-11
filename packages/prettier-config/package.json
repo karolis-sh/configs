@@ -5,10 +5,10 @@
   "license": "MIT",
   "author": "Karolis Šarapnickis <hi@karolis.sh>",
   "main": "index.js",
+  "peerDependencies": {
+    "prettier": "*"
+  },
   "publishConfig": {
     "access": "public"
-  },
-  "volta": {
-    "extends": "../../package.json"
   }
 }
