@@ -1,0 +1,26 @@
+{
+  "name": "@k.sh/eslint-plugin",
+  "version": "0.0.1",
+  "repository": "karolis-sh/configs",
+  "license": "MIT",
+  "author": "Karolis Šarapnickis <hi@karolis.sh>",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

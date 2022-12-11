@@ -1,4 +1,3 @@
 {
-  "extends": "@k.sh",
-  "env": { "node": true }
+  "extends": ["plugin:@k.sh/esnext", "plugin:@k.sh/node", "plugin:@k.sh/prettier"]
 }
