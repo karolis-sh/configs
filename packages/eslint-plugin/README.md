@@ -21,5 +21,9 @@ cat <<EOT > .eslintrc.json
 EOT
 ```
 
+## References
+
+- [`@shopify/eslint-plugin`](https://github.com/Shopify/web-configs)
+
 [package-version-badge]: https://badge.fury.io/js/@k.sh%2Feslint-plugin.svg
 [package-version]: https://www.npmjs.com/package/@k.sh/eslint-plugin
