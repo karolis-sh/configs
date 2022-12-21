@@ -4,7 +4,7 @@ module.exports = {
     es2022: true,
   },
   parserOptions: {
-    ecmaVersion: '2022',
+    ecmaVersion: 2022,
     sourceType: 'module',
   },
 };
