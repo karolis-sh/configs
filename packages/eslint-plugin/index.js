@@ -5,6 +5,7 @@ module.exports = {
     typescript: require('./lib/config/typescript'),
 
     // Augmenting configs - When extending, these go after the core config
+    jest: require('./lib/config/jest'),
     node: require('./lib/config/node'),
     react: require('./lib/config/react'),
 
