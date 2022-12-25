@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.1.1...@k.sh/eslint-plugin@0.2.0) (2022-12-25)
+
+### Features
+
+- add import rules ([a07be77](https://github.com/karolis-sh/configs/commit/a07be77438ebeb469f63d61530fb665fba6065c5))
+
 ## [0.1.1](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.1.0...@k.sh/eslint-plugin@0.1.1) (2022-12-21)
 
 ### Bug Fixes
