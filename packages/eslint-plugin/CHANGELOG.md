@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.2.0...@k.sh/eslint-plugin@0.3.0) (2022-12-25)
+
+### Bug Fixes
+
+- tweak jest config ([ae9b121](https://github.com/karolis-sh/configs/commit/ae9b121d7a093c5ee95bf07190988ad03c9d559e))
+
+### Features
+
+- add jest formatting ([392f2d3](https://github.com/karolis-sh/configs/commit/392f2d30cd1694aeebdc4d8332cf61fd7568c0b7))
+
 # [0.2.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.1.1...@k.sh/eslint-plugin@0.2.0) (2022-12-25)
 
 ### Features
