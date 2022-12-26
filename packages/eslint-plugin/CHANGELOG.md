@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.3.1...@k.sh/eslint-plugin@0.3.2) (2022-12-26)
+
+### Bug Fixes
+
+- handle .jsx filenames ([b8683c1](https://github.com/karolis-sh/configs/commit/b8683c1f54fc98d8a5567b7e279dfb7a1c4b3296))
+
 ## [0.3.1](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.3.0...@k.sh/eslint-plugin@0.3.1) (2022-12-26)
 
 **Note:** Version bump only for package @k.sh/eslint-plugin
