@@ -14,7 +14,7 @@
 1. Update ESLint config
 
 ```sh
-cat <<EOT > .eslintrc.json
+cat << EOT > .eslintrc.json
 {
   "extends": "plugin:@k.sh/esnext"
 }
