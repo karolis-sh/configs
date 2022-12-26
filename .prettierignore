@@ -8,6 +8,8 @@
 !*.cjs
 !*.sh
 !*.gitignore
+!*.env
+!*.env.*
 
 # npm files
 node_modules
