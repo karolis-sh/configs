@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/karolis-sh/configs/compare/@k.sh/prettier-config@0.4.0...@k.sh/prettier-config@0.4.1) (2022-12-26)
+
+### Bug Fixes
+
+- handle .env.\* files in prettier ([0546441](https://github.com/karolis-sh/configs/commit/05464419deeb3693a5b8d364aad60c3c1cdde0c5))
+
 # [0.4.0](https://github.com/karolis-sh/configs/compare/@k.sh/prettier-config@0.3.2...@k.sh/prettier-config@0.4.0) (2022-12-26)
 
 ### Features
