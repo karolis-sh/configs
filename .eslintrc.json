@@ -1,3 +1,7 @@
 {
-  "extends": ["plugin:@k.sh/esnext", "plugin:@k.sh/node", "plugin:@k.sh/prettier"]
+  "extends": [
+    "plugin:@k.sh/esnext",
+    "plugin:@k.sh/node",
+    "plugin:@k.sh/prettier"
+  ]
 }
