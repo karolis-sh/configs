@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/karolis-sh/configs/compare/@k.sh/prettier-config@0.3.2...@k.sh/prettier-config@0.4.0) (2022-12-26)
+
+### Features
+
+- update prettier config ([a6aa818](https://github.com/karolis-sh/configs/commit/a6aa8186d1259c03b56751771db4ea2dae7d29af))
+
 ## [0.3.2](https://github.com/karolis-sh/configs/compare/@k.sh/prettier-config@0.3.1...@k.sh/prettier-config@0.3.2) (2022-12-11)
 
 ### Bug Fixes
