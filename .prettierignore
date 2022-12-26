@@ -6,6 +6,7 @@
 !*.js
 !*.mjs
 !*.cjs
+!*.sh
 
 # npm files
 node_modules
@@ -13,3 +14,4 @@ package.json
 
 # project
 CHANGELOG.md
+.husky/_/
