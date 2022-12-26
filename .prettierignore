@@ -7,6 +7,7 @@
 !*.mjs
 !*.cjs
 !*.sh
+!*.gitignore
 
 # npm files
 node_modules
