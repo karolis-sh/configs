@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.4.0...@k.sh/eslint-plugin@0.5.0) (2022-12-27)
+
+### Features
+
+- change unused rest spread arg ([4618776](https://github.com/karolis-sh/configs/commit/46187766d5dd4debca9181d7ac08aa87fe7e9004))
+
 # [0.4.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.3.2...@k.sh/eslint-plugin@0.4.0) (2022-12-27)
 
 ### Features
