@@ -7,18 +7,39 @@
 
 ## Installation
 
-`yarn add -D @k.sh/eslint-plugin`
+`yarn add -D @k.sh/eslint-plugin eslint`
 
 ## Setup
 
-1. Update ESLint config
+1. Choose base config (`esnext` | `typescript`):
 
 ```sh
 cat << EOT > .eslintrc.json
 {
-  "extends": "plugin:@k.sh/esnext"
+  "extends": ["plugin:@k.sh/esnext"]
 }
 EOT
+```
+
+2. (**Optional**) Add any augmentations you're using (`jest`, `node`, `react`):
+
+```json
+{
+  "extends": ["plugin:@k.sh/esnext", "plugin:@k.sh/node", "plugin:@k.sh/jest"]
+}
+```
+
+3. (**Optional**) Finish off with prettier:
+
+```json
+{
+  "extends": [
+    "plugin:@k.sh/esnext",
+    "plugin:@k.sh/node",
+    "plugin:@k.sh/jest",
+    "plugin:@k.sh/prettier"
+  ]
+}
 ```
 
 ## References

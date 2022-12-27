@@ -1,6 +1,6 @@
 module.exports = {
   configs: {
-    // Core configs - When extending, one of these should go first
+    // Base configs - When extending, one of these should go first
     esnext: require('./lib/config/esnext'),
     typescript: require('./lib/config/typescript'),
 
