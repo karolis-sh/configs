@@ -15,6 +15,12 @@ module.exports = {
           typescript: {},
         },
       },
+      rules: {
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          { ignoreRestSiblings: true },
+        ],
+      },
     },
   ],
 };
