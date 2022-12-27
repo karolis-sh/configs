@@ -11,7 +11,7 @@
 
 ## Setup
 
-1. Choose base config (`esnext` | `typescript`):
+1. Choose core config (`esnext` | `typescript`):
 
 ```sh
 cat << EOT > .eslintrc.json
