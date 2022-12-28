@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.5.0...@k.sh/eslint-plugin@0.6.0) (2022-12-28)
+
+### Features
+
+- add eslint-plugin-eslint-comments ([d554318](https://github.com/karolis-sh/configs/commit/d5543184938ff41a45137065a7ced79d7601e07d))
+
 # [0.5.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.4.0...@k.sh/eslint-plugin@0.5.0) (2022-12-27)
 
 ### Features
