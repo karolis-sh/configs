@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.6.0...@k.sh/eslint-plugin@0.7.0) (2022-12-28)
+
+### Features
+
+- add ~ as internal alias support ([6a02f63](https://github.com/karolis-sh/configs/commit/6a02f633a7908dfad9d33eb893ef3af9a5cd16cf))
+
 # [0.6.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.5.0...@k.sh/eslint-plugin@0.6.0) (2022-12-28)
 
 ### Features
