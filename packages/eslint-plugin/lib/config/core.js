@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:import/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:import/recommended',
+    'plugin:eslint-comments/recommended',
+  ],
   rules: {
     'no-unused-vars': ['error', { ignoreRestSiblings: true }],
     'import/order': [
@@ -15,16 +19,8 @@ module.exports = {
           'unknown',
         ],
         'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
-        pathGroups: [
-          {
-            pattern: '@/**',
-            group: 'internal',
-          },
-        ],
+        alphabetize: { order: 'asc', caseInsensitive: true },
+        pathGroups: [{ pattern: '@/**', group: 'internal' }],
       },
     ],
   },
