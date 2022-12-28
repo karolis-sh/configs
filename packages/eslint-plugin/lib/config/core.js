@@ -20,7 +20,10 @@ module.exports = {
         ],
         'newlines-between': 'always',
         alphabetize: { order: 'asc', caseInsensitive: true },
-        pathGroups: [{ pattern: '@/**', group: 'internal' }],
+        pathGroups: [
+          { pattern: '@/**', group: 'internal' },
+          { pattern: '~/**', group: 'internal' },
+        ],
       },
     ],
   },
