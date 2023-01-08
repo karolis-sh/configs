@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "strict": true,
-    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
-    "stripInternal": true,
-    "forceConsistentCasingInFileNames": true
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "stripInternal": true
   }
 }
