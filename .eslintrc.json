@@ -4,5 +4,11 @@
     "plugin:@k.sh/node",
     "plugin:@k.sh/jest",
     "plugin:@k.sh/prettier"
-  ]
+  ],
+  "env": {
+    "es2020": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 11
+  }
 }

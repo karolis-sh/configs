@@ -1958,7 +1958,7 @@ exports[`should load typescript configuration 1`] = `
   "globals": {},
   "ignorePatterns": [],
   "noInlineConfig": undefined,
-  "parser": "/Users/karolis/projects/configs/node_modules/@typescript-eslint/parser/dist/index.js",
+  "parser": "<node_modules>/@typescript-eslint/parser/dist/index.js",
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module",
