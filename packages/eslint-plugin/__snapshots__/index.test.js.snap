@@ -71,7 +71,9 @@ exports[`should load core configuration 1`] = `
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc",
+          "orderImportKind": "ignore",
         },
+        "distinctGroup": true,
         "groups": [
           "builtin",
           "external",
@@ -352,7 +354,9 @@ exports[`should load es5 configuration 1`] = `
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc",
+          "orderImportKind": "ignore",
         },
+        "distinctGroup": true,
         "groups": [
           "builtin",
           "external",
@@ -635,7 +639,9 @@ exports[`should load esnext configuration 1`] = `
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc",
+          "orderImportKind": "ignore",
         },
+        "distinctGroup": true,
         "groups": [
           "builtin",
           "external",
@@ -1546,6 +1552,9 @@ exports[`should load prettier configuration 1`] = `
     "vue/multiline-html-element-content-newline": [
       "off",
     ],
+    "vue/multiline-ternary": [
+      "off",
+    ],
     "vue/mustache-interpolation-spacing": [
       "off",
     ],
@@ -1628,6 +1637,9 @@ exports[`should load react configuration 1`] = `
   "rules": {
     "jsx-a11y/alt-text": [
       "error",
+    ],
+    "jsx-a11y/anchor-ambiguous-text": [
+      "off",
     ],
     "jsx-a11y/anchor-has-content": [
       "error",
@@ -2093,7 +2105,9 @@ exports[`should load typescript configuration 1`] = `
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc",
+          "orderImportKind": "ignore",
         },
+        "distinctGroup": true,
         "groups": [
           "builtin",
           "external",
