@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.7.0...@k.sh/eslint-plugin@0.8.0) (2023-01-18)
+
+
+### Bug Fixes
+
+* **eslint-plugin:** allow typescript plugin to be used as root ([33d10c5](https://github.com/karolis-sh/configs/commit/33d10c54b6ecb24b01630e214bb78d7d39a6221b))
+
+
+### Features
+
+* add es5 plugin config ([58e968b](https://github.com/karolis-sh/configs/commit/58e968bad4a14bcabef8129c047ba93b11e78578))
+* upgrade eslint deps ([753f032](https://github.com/karolis-sh/configs/commit/753f032035e74f6f6db6de4c95dde6ad4b6f2f2e))
+
+
+### BREAKING CHANGES
+
+* **eslint-plugin:** typescript plugin no longer work as an override over .ts and .tsx files
+
+
+
+
+
 # [0.7.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.6.0...@k.sh/eslint-plugin@0.7.0) (2022-12-28)
 
 ### Features
