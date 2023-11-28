@@ -7,7 +7,7 @@
 
 ## Installation
 
-`yarn add -D @k.sh/eslint-plugin eslint`
+`npm i -D @k.sh/eslint-plugin eslint`
 
 ## Setup
 

@@ -7,7 +7,7 @@
 
 ## Installation
 
-`yarn add -D @k.sh/typescript-config`
+`npm i -D @k.sh/typescript-config`
 
 ## Setup
 
