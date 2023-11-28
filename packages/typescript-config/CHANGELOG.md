@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/karolis-sh/configs/compare/@k.sh/typescript-config@0.4.0...@k.sh/typescript-config@0.4.1) (2023-11-28)
+
+**Note:** Version bump only for package @k.sh/typescript-config
+
+
+
+
+
 # [0.4.0](https://github.com/karolis-sh/configs/compare/@k.sh/typescript-config@0.3.3...@k.sh/typescript-config@0.4.0) (2023-01-08)
 
 ### Features
