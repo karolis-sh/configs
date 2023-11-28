@@ -11,33 +11,34 @@
   "scripts": {
     "format": "run-p format:*",
     "format:package.json": "sort-package-json package.json packages/*/package.json",
-    "format:prettier": "prettier --write '**/*.*'",
+    "format:prettier": "prettier --write .",
     "lint": "eslint . --ignore-path .gitignore",
     "prepare": "husky install",
-    "qa": "concurrently -c \"auto\" \"yarn:lint\" \"yarn:test\"",
+    "qa": "concurrently -c \"auto\" \"npm:lint\" \"npm:test\"",
     "test": "lerna run test",
-    "release": "yarn && yarn lerna publish --no-private --conventional-commits --create-release github --no-commit-hooks"
+    "release": "npm i && npx lerna publish --no-private --conventional-commits --create-release github --no-commit-hooks"
   },
   "lint-staged": {
     "*.js": "eslint --fix",
     "package.json": "sort-package-json"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "concurrently": "^7.6.0",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "concurrently": "^8.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.32.0",
+    "eslint": "^8.54.0",
     "husky": "^8.0.3",
-    "lerna": "^6.4.1",
-    "lint-staged": ">=13.1.0",
+    "lerna": "^8.0.0",
+    "lint-staged": ">=15.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.3",
-    "prettier-plugin-sh": "^0.12.8",
-    "pretty-quick": "^3.1.3",
-    "sort-package-json": "^2.1.0"
+    "prettier": "^3.1.0",
+    "sort-package-json": "^2.6.0"
   },
   "engines": {
     "node": ">=14"
+  },
+  "volta": {
+    "node": "18.18.2"
   }
 }

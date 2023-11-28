@@ -5,8 +5,11 @@
   "license": "MIT",
   "author": "Karolis Šarapnickis <hi@karolis.sh>",
   "main": "index.js",
+  "dependencies": {
+    "prettier-plugin-sh": "^0.13.1"
+  },
   "peerDependencies": {
-    "prettier": "*"
+    "prettier": ">=3"
   },
   "publishConfig": {
     "access": "public"

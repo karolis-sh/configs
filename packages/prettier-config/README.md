@@ -5,7 +5,7 @@
 
 ## Installation
 
-`yarn add -D @k.sh/prettier-config prettier`
+`npm i -D @k.sh/prettier-config prettier`
 
 ## Setup
 
