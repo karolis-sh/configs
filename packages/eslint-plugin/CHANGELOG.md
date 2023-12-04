@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.1](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.9.0...@k.sh/eslint-plugin@0.9.1) (2023-12-04)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-prettier ([8fe6489](https://github.com/karolis-sh/configs/commit/8fe6489c2f8637a9151c2d400e52af0f1f2ea0d9))
+
+
+
+
+
 # [0.9.0](https://github.com/karolis-sh/configs/compare/@k.sh/eslint-plugin@0.8.0...@k.sh/eslint-plugin@0.9.0) (2023-11-28)
 
 
