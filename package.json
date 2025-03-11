@@ -13,7 +13,7 @@
     "format:package.json": "sort-package-json package.json packages/*/package.json",
     "format:prettier": "prettier --write '**/*.*'",
     "lint": "eslint . --ignore-path .gitignore",
-    "prepare": "husky install",
+    "prepare": "husky",
     "qa": "concurrently -c \"auto\" \"yarn:lint\" \"yarn:test\"",
     "test": "lerna run test",
     "release": "yarn && yarn lerna publish --no-private --conventional-commits --create-release github --no-commit-hooks"
