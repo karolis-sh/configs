@@ -1,5 +1,5 @@
 {
-  "name": "configs",
+  "name": "@ksh/configs",
   "version": "0.0.0",
   "private": true,
   "repository": "karolis-sh/configs",
